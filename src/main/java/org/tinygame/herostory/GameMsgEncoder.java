@@ -7,11 +7,8 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelOutboundHandlerAdapter;
 import io.netty.channel.ChannelPromise;
 import io.netty.handler.codec.http.*;
-import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
-import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tinygame.herostory.msg.GameMsgProtocol;
 
 public class GameMsgEncoder extends ChannelOutboundHandlerAdapter {
 
@@ -31,8 +28,8 @@ public class GameMsgEncoder extends ChannelOutboundHandlerAdapter {
 
         byte[] byteArray = ((GeneratedMessageV3)msg).toByteArray();
         ByteBuf byteBuf = ctx.alloc().buffer();
-//        byteBuf.writeShort((short)0);
-//        byteBuf.writeShort((short)msgCode);
+        byteBuf.writeInt(byteArray.length + 8);
+        byteBuf.writeInt(msgCode);
         byteBuf.writeBytes(byteArray);
         FullHttpResponse response = null;
 
@@ -41,12 +38,9 @@ public class GameMsgEncoder extends ChannelOutboundHandlerAdapter {
                 HttpResponseStatus.OK,
                 Unpooled.copiedBuffer(byteBuf)
         );
-//        response.headers().set(HttpHeaderNames.CONTENT_TYPE, "application/x-protobuf");
+
         response.headers().set(HttpHeaderNames.CONTENT_LENGTH, response.content().readableBytes());
         response.headers().set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
-//        response.headers().set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_HEADERS,"*");//允许headers自定义
-//        response.headers().set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_METHODS,"GET, POST");
-//        response.headers().set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_CREDENTIALS,"true");
 
         super.write(ctx, response, promise);
     }

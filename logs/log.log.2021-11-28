@@ -3,7 +3,7 @@
 2021-11-28 22:30:06[main:7]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
 2021-11-28 22:30:06[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
 2021-11-28 22:30:06[main:11]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
-2021-11-28 22:30:06[main:13]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.UserLoginCmdHandler
+2021-11-28 22:30:06[main:13]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
 2021-11-28 22:30:06[main:62]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
 2021-11-28 22:30:06[main:63]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
 2021-11-28 22:30:06[main:65]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16

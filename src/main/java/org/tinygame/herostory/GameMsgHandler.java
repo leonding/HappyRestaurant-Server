@@ -3,19 +3,10 @@ package org.tinygame.herostory;
 import com.google.protobuf.GeneratedMessageV3;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.handler.codec.http.FullHttpRequest;
-import io.netty.handler.codec.http.HttpContent;
-import io.netty.handler.codec.http.HttpRequest;
 import io.netty.util.AttributeKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tinygame.herostory.cmdHandler.*;
-import org.tinygame.herostory.model.User;
 import org.tinygame.herostory.model.UserManager;
-import org.tinygame.herostory.msg.GameMsgProtocol;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class GameMsgHandler extends SimpleChannelInboundHandler<Object> {
     private static final Logger LOGGER = LoggerFactory.getLogger(GameMsgHandler.class);
@@ -46,11 +37,11 @@ public class GameMsgHandler extends SimpleChannelInboundHandler<Object> {
 
         UserManager.removeUserById(userId);
 
-        GameMsgProtocol.UserQuitResult.Builder resultBuilder = GameMsgProtocol.UserQuitResult.newBuilder();
-        resultBuilder.setQuitUserId(userId);
-
-        GameMsgProtocol.UserQuitResult newResult = resultBuilder.build();
-        Broadcaster.broadcast(newResult);
+//        GameMsgProtocol.UserQuitResult.Builder resultBuilder = GameMsgProtocol.UserQuitResult.newBuilder();
+//        resultBuilder.setQuitUserId(userId);
+//
+//        GameMsgProtocol.UserQuitResult newResult = resultBuilder.build();
+//        Broadcaster.broadcast(newResult);
     }
 
 }

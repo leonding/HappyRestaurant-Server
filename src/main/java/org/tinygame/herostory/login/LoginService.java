@@ -25,10 +25,10 @@ public class LoginService {
         return _instance;
     }
 
-    public void userLogin(String userName, String password, Function<UserEntity, Void> callback) {
-        if(null == userName || null == password) { return;}
+    public void userLogin(String userName, Function<UserEntity, Void> callback) {
+        if(null == userName) { return;}
 
-        IAsyncOperation asyncOp = new AsyncGetUserByName(userName, password){
+        IAsyncOperation asyncOp = new AsyncGetUserByName(userName){
             @Override
             public void doFinish(){
                 if(null != callback) {
@@ -49,8 +49,11 @@ public class LoginService {
 
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("userId", userEntity.userId);
-            jsonObject.put("userName", userEntity.userName);
+            jsonObject.put("userName", userEntity.puid);
             jsonObject.put("heroAvator", userEntity.heroAvatar);
+            jsonObject.put("cash", userEntity.cash);
+            jsonObject.put("money", userEntity.money);
+            jsonObject.put("gold", userEntity.gold);
 
             redis.hset("User_" + userId, "BasicInfo",  jsonObject.toJSONString());
         } catch(Exception e){
@@ -61,13 +64,10 @@ public class LoginService {
     private class AsyncGetUserByName implements IAsyncOperation {
         private final String _userName;
 
-        private final String _password;
-
         private UserEntity _userEntity = null;
 
-        AsyncGetUserByName(String username, String password){
+        AsyncGetUserByName(String username){
             _userName = username;
-            _password = password;
         }
 
         public UserEntity getUserEntity(){
@@ -88,17 +88,10 @@ public class LoginService {
 
                 UserEntity userEntity = dao.getUserByName(_userName);
                 if(null != userEntity) {
-                    if(!_password.equals(userEntity.password)) {
-                        LOGGER.error(
-                                "用户密码错误, userName = {}",
-                                _userName
-                        );
-                        throw new RuntimeException("用户密码错误");
-                    }
+
                 }else{
                     userEntity = new UserEntity();
-                    userEntity.userName = _userName;
-                    userEntity.password = _password;
+                    userEntity.puid = _userName;
                     userEntity.heroAvatar = "Hero_Shaman";
 
                     dao.insertInto(userEntity);

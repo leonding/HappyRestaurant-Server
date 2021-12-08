@@ -1,0 +1,202 @@
+2021-11-29 09:41:12[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 09:41:12[main:6]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 09:41:12[main:10]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 09:41:12[main:12]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 09:41:12[main:13]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 09:41:12[main:16]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 09:41:12[main:74]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 09:41:12[main:76]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 09:41:12[main:78]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 09:41:12[main:80]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 09:41:12[main:82]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 09:41:12[main:84]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 09:41:12[main:85]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 09:41:12[main:87]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 09:41:12[main:89]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 09:41:12[main:90]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 09:41:12[main:93]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 09:41:12[main:94]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 09:41:12[main:96]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 09:41:12[main:98]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 09:41:12[main:100]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 09:41:12[main:102]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 09:41:12[main:104]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 09:41:12[main:106]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 09:41:12[main:108]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 09:41:13[main:1521]-[INFO] 服务器启动成功
+2021-11-29 09:43:04[MainThreadProcessor:112422]-[INFO] userName = leon1, password = 234324234
+2021-11-29 09:43:04[AsyncOperationProcessor1:112440]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-11-29 09:43:05[MainThreadProcessor:112919]-[INFO] 当前线程 = MainThreadProcessor
+2021-11-29 09:43:05[MainThreadProcessor:112920]-[INFO] 用户登陆成功; userId = 6, userName = leon1
+2021-11-29 15:16:46[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:16:46[main:4]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:16:46[main:5]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:16:46[main:7]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:16:46[main:8]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:16:46[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:16:46[main:51]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:16:46[main:53]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:16:46[main:55]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:16:46[main:57]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:16:46[main:60]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:16:46[main:62]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:16:46[main:63]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:16:46[main:65]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:16:46[main:67]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:16:46[main:69]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:16:46[main:72]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:16:46[main:74]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:16:46[main:76]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:16:46[main:78]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:16:46[main:80]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:16:46[main:83]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:16:46[main:85]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:16:46[main:91]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:16:46[main:94]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:16:47[main:1621]-[INFO] 服务器启动成功
+2021-11-29 15:17:35[MainThreadProcessor:48657]-[INFO] userName = leon1, password = 234324234
+2021-11-29 15:17:35[AsyncOperationProcessor1:48666]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-11-29 15:17:35[MainThreadProcessor:49043]-[INFO] 当前线程 = MainThreadProcessor
+2021-11-29 15:17:35[MainThreadProcessor:49043]-[INFO] 用户登陆成功; userId = 6, userName = leon1
+2021-11-29 15:18:28[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:18:28[main:6]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:18:28[main:8]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:18:28[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:18:28[main:11]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:18:28[main:12]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:18:28[main:60]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:18:28[main:62]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:18:28[main:64]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:18:28[main:67]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:18:28[main:69]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:18:28[main:71]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:18:28[main:74]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:18:28[main:76]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:18:28[main:78]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:18:28[main:81]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:18:28[main:84]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:18:28[main:86]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:18:28[main:90]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:18:28[main:92]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:18:28[main:94]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:18:28[main:97]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:18:28[main:99]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:18:28[main:109]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:18:28[main:111]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:18:30[main:1998]-[INFO] 服务器启动成功
+2021-11-29 15:19:23[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:19:23[main:5]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:19:23[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:19:23[main:11]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:19:23[main:12]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:19:23[main:14]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:19:23[main:59]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:19:23[main:61]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:19:23[main:63]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:19:23[main:65]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:19:23[main:67]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:19:23[main:68]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:19:23[main:70]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:19:23[main:71]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:19:23[main:75]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:19:23[main:77]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:19:23[main:80]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:19:23[main:81]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:19:23[main:83]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:19:23[main:84]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:19:23[main:86]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:19:23[main:88]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:19:23[main:90]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:19:23[main:95]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:19:23[main:97]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:19:24[main:1759]-[INFO] 服务器启动成功
+2021-11-29 15:19:28[MainThreadProcessor:4785]-[INFO] userName = leon1, password = 234324234
+2021-11-29 15:19:28[AsyncOperationProcessor1:4789]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-11-29 15:19:28[MainThreadProcessor:5072]-[INFO] 当前线程 = MainThreadProcessor
+2021-11-29 15:19:28[MainThreadProcessor:5073]-[INFO] 用户登陆成功; userId = 6, userName = leon1
+2021-11-29 15:19:50[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:19:50[main:3]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:19:50[main:5]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:19:50[main:6]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:19:50[main:7]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:19:50[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:19:50[main:66]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:19:50[main:67]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:19:50[main:69]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:19:50[main:71]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:19:50[main:73]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:19:50[main:74]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:19:50[main:76]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:19:50[main:77]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:19:50[main:78]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:19:50[main:81]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:19:50[main:84]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:19:50[main:86]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:19:50[main:87]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:19:50[main:89]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:19:50[main:90]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:19:50[main:93]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:19:50[main:95]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:19:50[main:99]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:19:50[main:101]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:19:51[main:1687]-[INFO] 服务器启动成功
+2021-11-29 15:19:54[MainThreadProcessor:4097]-[INFO] userName = leon1, password = 234324234
+2021-11-29 15:19:54[AsyncOperationProcessor1:4101]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-11-29 15:19:54[MainThreadProcessor:4372]-[INFO] 当前线程 = MainThreadProcessor
+2021-11-29 15:19:54[MainThreadProcessor:4372]-[INFO] 用户登陆成功; userId = 6, userName = leon1
+2021-11-29 15:20:07[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:20:07[main:14]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:20:07[main:16]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:20:07[main:17]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:20:07[main:35]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:20:07[main:40]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:20:07[main:168]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:20:07[main:174]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:20:07[main:177]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:20:07[main:181]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:20:07[main:184]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:20:07[main:188]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:20:07[main:190]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:20:07[main:192]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:20:07[main:195]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:20:07[main:198]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:20:07[main:201]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:20:07[main:205]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:20:07[main:207]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:20:07[main:209]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:20:07[main:211]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:20:07[main:215]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:20:07[main:216]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:20:07[main:225]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:20:07[main:227]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:20:09[main:1964]-[INFO] 服务器启动成功
+2021-11-29 15:20:32[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-11-29 15:20:32[main:3]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-11-29 15:20:32[main:5]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-11-29 15:20:32[main:6]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-11-29 15:20:32[main:8]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-11-29 15:20:32[main:15]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-11-29 15:20:32[main:66]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-11-29 15:20:32[main:68]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-11-29 15:20:32[main:70]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroResult <===> 16
+2021-11-29 15:20:32[main:71]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$SelectHeroCmd <===> 15
+2021-11-29 15:20:32[main:73]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginResult <===> 14
+2021-11-29 15:20:32[main:76]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd <===> 13
+2021-11-29 15:20:32[main:78]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <===> 12
+2021-11-29 15:20:32[main:80]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <===> 11
+2021-11-29 15:20:32[main:82]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <===> 10
+2021-11-29 15:20:32[main:83]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <===> 9
+2021-11-29 15:20:32[main:86]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <===> 8
+2021-11-29 15:20:32[main:88]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <===> 7
+2021-11-29 15:20:32[main:90]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <===> 6
+2021-11-29 15:20:32[main:93]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <===> 5
+2021-11-29 15:20:32[main:95]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <===> 4
+2021-11-29 15:20:32[main:100]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3
+2021-11-29 15:20:32[main:103]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2
+2021-11-29 15:20:32[main:105]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <===> 1
+2021-11-29 15:20:32[main:107]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <===> 0
+2021-11-29 15:20:34[main:1933]-[INFO] 服务器启动成功
+2021-11-29 15:20:37[MainThreadProcessor:5248]-[INFO] userName = leon1, password = 234324234
+2021-11-29 15:20:37[AsyncOperationProcessor1:5251]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-11-29 15:20:37[MainThreadProcessor:5523]-[INFO] 当前线程 = MainThreadProcessor
+2021-11-29 15:20:37[MainThreadProcessor:5524]-[INFO] 用户登陆成功; userId = 6, userName = leon1

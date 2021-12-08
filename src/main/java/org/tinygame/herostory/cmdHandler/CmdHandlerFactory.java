@@ -3,7 +3,6 @@ package org.tinygame.herostory.cmdHandler;
 import com.google.protobuf.GeneratedMessageV3;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tinygame.herostory.msg.GameMsgProtocol;
 import org.tinygame.herostory.util.PackageUtil;
 
 import java.lang.reflect.Method;

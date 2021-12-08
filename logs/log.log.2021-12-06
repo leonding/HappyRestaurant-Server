@@ -1,0 +1,68 @@
+2021-12-06 10:54:56[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-06 10:54:56[main:303]-[INFO] ---------------
+2021-12-06 10:54:56[main:305]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-06 10:54:56[main:305]-[INFO] ---------------
+2021-12-06 10:54:56[main:305]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-06 10:54:58[main:2511]-[INFO] 服务器启动成功
+2021-12-06 11:23:30[MainThreadProcessor:1714300]-[INFO] userName = leon
+2021-12-06 11:23:33[AsyncOperationProcessor6:1717409]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 11:23:36[MainThreadProcessor:1720427]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 11:23:36[MainThreadProcessor:1720428]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 11:26:05[main:1]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-06 11:26:05[main:212]-[INFO] ---------------
+2021-12-06 11:26:05[main:215]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-06 11:26:05[main:215]-[INFO] ---------------
+2021-12-06 11:26:05[main:215]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-06 11:26:08[main:2875]-[INFO] 服务器启动成功
+2021-12-06 11:26:22[MainThreadProcessor:17445]-[INFO] userName = leon
+2021-12-06 11:26:22[AsyncOperationProcessor6:17475]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 11:26:23[MainThreadProcessor:17805]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 11:26:23[MainThreadProcessor:17806]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 11:27:21[MainThreadProcessor:76042]-[INFO] userName = leon
+2021-12-06 11:27:21[AsyncOperationProcessor6:76042]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 11:27:21[MainThreadProcessor:76044]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 11:27:21[MainThreadProcessor:76044]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 11:39:45[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-06 11:39:45[main:142]-[INFO] ---------------
+2021-12-06 11:39:45[main:150]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-06 11:39:45[main:150]-[INFO] ---------------
+2021-12-06 11:39:45[main:151]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-06 11:39:48[main:2234]-[INFO] 服务器启动成功
+2021-12-06 11:40:10[MainThreadProcessor:24375]-[INFO] userName = leon
+2021-12-06 11:40:10[AsyncOperationProcessor6:25054]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 11:40:12[MainThreadProcessor:26556]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 11:40:12[MainThreadProcessor:26556]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 11:43:15[MainThreadProcessor:209920]-[INFO] userName = leon
+2021-12-06 11:43:16[AsyncOperationProcessor6:210665]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 11:43:17[MainThreadProcessor:211627]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 11:43:17[MainThreadProcessor:211627]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:04:30[MainThreadProcessor:12284522]-[INFO] userName = leon
+2021-12-06 15:04:30[AsyncOperationProcessor6:12284991]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:04:31[MainThreadProcessor:12285497]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:04:31[MainThreadProcessor:12285497]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:20:19[MainThreadProcessor:13233649]-[INFO] userName = leon
+2021-12-06 15:20:20[AsyncOperationProcessor6:13234734]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:20:21[MainThreadProcessor:13235730]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:20:21[MainThreadProcessor:13235730]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:21:11[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-06 15:21:12[main:349]-[INFO] ---------------
+2021-12-06 15:21:12[main:351]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-06 15:21:12[main:351]-[INFO] ---------------
+2021-12-06 15:21:12[main:352]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-06 15:21:15[main:3679]-[INFO] 服务器启动成功
+2021-12-06 15:21:40[MainThreadProcessor:29078]-[INFO] userName = leon
+2021-12-06 15:21:40[AsyncOperationProcessor6:29106]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:21:41[MainThreadProcessor:29401]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:21:41[MainThreadProcessor:29401]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:22:50[MainThreadProcessor:98320]-[INFO] userName = leon
+2021-12-06 15:22:50[AsyncOperationProcessor6:98320]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:22:50[MainThreadProcessor:98322]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:22:50[MainThreadProcessor:98323]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:24:25[MainThreadProcessor:193828]-[INFO] userName = leon
+2021-12-06 15:24:25[AsyncOperationProcessor6:193828]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:24:25[MainThreadProcessor:193831]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:24:25[MainThreadProcessor:193831]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-06 15:26:06[MainThreadProcessor:294542]-[INFO] userName = leon
+2021-12-06 15:26:06[AsyncOperationProcessor6:294543]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-06 15:26:06[MainThreadProcessor:294544]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-06 15:26:06[MainThreadProcessor:294544]-[INFO] 用户登陆成功; userId = 5, puid = leon

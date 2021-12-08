@@ -2,24 +2,15 @@ package org.tinygame.herostory.model;
 
 public class User {
 
-    /**
-     * 用户
-     */
     public int userId;
 
-    /**
-     * 英雄形象
-     */
     public String heroAvatar;
 
+    public String puid;
 
-    public String userName;
+    public int cash;
 
-    /**
-     * 移动状态
-     */
-    public final MoveState moveState = new MoveState();
+    public int money;
 
-    public int currHp;
-
+    public int gold;
 }

@@ -1,0 +1,15 @@
+2021-12-02 14:01:55[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-12-02 14:01:55[main:21]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-02 14:01:55[main:34]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-12-02 14:01:55[main:45]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-12-02 14:01:55[main:61]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-12-02 14:01:55[main:71]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-12-02 15:17:00[main:4505055]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18
+2021-12-02 15:17:00[main:4505087]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd <===> 17
+2021-12-02 18:14:11[main:0]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd====org.tinygame.herostory.cmdHandler.UserAttkCmdHandler
+2021-12-02 18:14:11[main:4]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-02 18:14:11[main:5]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd====org.tinygame.herostory.cmdHandler.WhoElseIsHereCmdHandler
+2021-12-02 18:14:11[main:6]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd====org.tinygame.herostory.cmdHandler.UserMoveToCmdHandler
+2021-12-02 18:14:11[main:8]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankCmd====org.tinygame.herostory.cmdHandler.GetRankCmdHandler
+2021-12-02 18:14:11[main:9]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd====org.tinygame.herostory.cmdHandler.UserEntryCmdHandler
+2021-12-02 18:31:17[main:1026112]-[INFO] org.tinygame.herostory.msg.GameMsgProtocol$GetRankResult <===> 18

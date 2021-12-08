@@ -3,19 +3,22 @@
 <mapper namespace="org.tinygame.herostory.login.db.IUserDao">
     <resultMap id="userEntity" type="org.tinygame.herostory.login.db.UserEntity">
         <id property="userId" column="user_id"/>
-        <result property="userName" column="user_name"/>
+        <result property="puid" column="puid"/>
         <result property="password" column="password"/>
         <result property="heroAvatar" column="hero_avatar"/>
+        <result property="cash" column="cash"/>
+        <result property="money" column="money"/>
+        <result property="gold" column="gold"/>
     </resultMap>
 
     <select id="getUserByName" resultMap="userEntity">
-        SELECT user_id, user_name, `password`, hero_avatar FROM t_user WHERE user_name = #{userName};
+        SELECT user_id, puid, `password`, hero_avatar, cash, money, gold FROM t_user WHERE puid = #{puid};
     </select>
 
     <insert id="insertInto">
         <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="userId">
             SELECT last_insert_id() AS user_id
         </selectKey>
-        INSERT INTO t_user ( user_name, `password`, hero_avatar ) VALUE ( #{userName}, #{password}, #{heroAvatar} );
+        INSERT INTO t_user ( puid, `password`, hero_avatar ) VALUE ( #{puid}, #{password}, #{heroAvatar} );
     </insert>
 </mapper>

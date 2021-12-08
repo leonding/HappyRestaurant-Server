@@ -4,11 +4,13 @@ import com.google.protobuf.GeneratedMessageV3;
 import com.google.protobuf.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tinygame.herostory.msg.GameMsgProtocol;
+import org.tinygame.herostory.msg.MsgCodeProto;
+import org.tinygame.herostory.util.PackageUtil;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class GameMsgRecognizer {
     static public final Logger LOGGER = LoggerFactory.getLogger(GameMsgRecognizer.class);
@@ -21,26 +23,29 @@ public class GameMsgRecognizer {
     }
 
     static public void init(){
-        Class<?>[]  innerClazzArray = GameMsgProtocol.class.getDeclaredClasses();
-        for(Class<?> innerClazz : innerClazzArray){
-            if(!GeneratedMessageV3.class.isAssignableFrom(innerClazz)){
+        MsgCodeProto.MsgCode msgCodes[] = MsgCodeProto.MsgCode.values();
+        Set<Class<?>> clazzSet = PackageUtil.listSubClazz(MsgCodeProto.class.getPackage().getName(), true, Object.class);
+
+        for(MsgCodeProto.MsgCode msgCode : msgCodes) {
+            String strMsgCode = msgCode.name();
+            if(strMsgCode == "SUCCESS" || strMsgCode == "UNRECOGNIZED" ){
                 continue;
             }
-
-            String clazzName = innerClazz.getSimpleName();
-            clazzName = clazzName.toLowerCase();
-
-            for(GameMsgProtocol.MsgCode msgCode : GameMsgProtocol.MsgCode.values()) {
-                String strMsgCode = msgCode.name();
-                strMsgCode = strMsgCode.replace("_", "");
-                strMsgCode = strMsgCode.toLowerCase();
+            strMsgCode = strMsgCode.replace("_", "");
+            strMsgCode = strMsgCode.toLowerCase();
+            for(Class<?> clazz : clazzSet) {
+                if(!GeneratedMessageV3.class.isAssignableFrom(clazz)){
+                    continue;
+                }
+                String clazzName = clazz.getSimpleName();
+                clazzName = clazzName.toLowerCase();
                 if(!strMsgCode.startsWith(clazzName)){
                     continue;
                 }
+                LOGGER.info("---------------");
                 try {
-                    Object returnObj = innerClazz.getDeclaredMethod("getDefaultInstance").invoke(innerClazz);
-
-                    LOGGER.info("{} <===> {}", innerClazz.getName(), msgCode.getNumber());
+                    Object returnObj = clazz.getDeclaredMethod("getDefaultInstance").invoke(clazz);
+                    LOGGER.info("{} <=> {}", clazz.getName(), msgCode.getNumber() );
 
                     _msgCodeAndMsgBodyMap.put(
                         msgCode.getNumber(),
@@ -48,7 +53,7 @@ public class GameMsgRecognizer {
                     );
 
                     _msgClazzAndMsgCodeMap.put(
-                        innerClazz,
+                        clazz,
                         msgCode.getNumber()
                     );
 
