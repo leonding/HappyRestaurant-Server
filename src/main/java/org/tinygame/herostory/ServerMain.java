@@ -3,23 +3,22 @@ package org.tinygame.herostory;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
-import io.netty.handler.codec.http.HttpRequestDecoder;
-import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.codec.http.HttpServerCodec;
-import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tinygame.herostory.cmdHandler.CmdHandlerFactory;
+import org.tinygame.herostory.common.DataConfigManager;
+import org.tinygame.herostory.common.MySqlSessionFactory;
+import org.tinygame.herostory.netty.GameMsgDecoder;
+import org.tinygame.herostory.netty.GameMsgEncoder;
+import org.tinygame.herostory.netty.GameMsgHandler;
+import org.tinygame.herostory.netty.GameMsgRecognizer;
 import org.tinygame.herostory.util.RedisUtil;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class ServerMain {
     /**
@@ -28,10 +27,12 @@ public class ServerMain {
     static private final Logger LOGGER = LoggerFactory.getLogger(ServerMain.class);
 
     public static void main(String[] args){
+
         CmdHandlerFactory.init();
         GameMsgRecognizer.init();
         MySqlSessionFactory.init();
         RedisUtil.init();
+        DataConfigManager.init();
 
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workGroup = new NioEventLoopGroup();

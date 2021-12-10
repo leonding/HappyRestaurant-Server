@@ -1,0 +1,10 @@
+[
+{"id":1,"value":"http://192.168.3.97:18080/LoginServer/login/Server_gate.do","status":1,"name":"杨利","info":"杨利"},
+{"id":2,"value":"http://192.168.3.132:18080/LoginServer/login/Server_gate.do","status":1,"name":"康健","info":"康健"},
+{"id":3,"value":"http://192.168.3.28:18080/LoginServer/login/Server_gate.do","status":1,"name":"梅继海","info":"梅继海"},
+{"id":4,"value":"http://login.gold.bianfenghd.com/LoginServer/login/Server_gate.do","status":1,"name":"测试","info":"测试"},
+{"id":5,"value":"http://jlogin.gold.bianfenghd.com/LoginServer/login/Server_gate.do","status":1,"name":"体验服","info":"体验服"},
+{"id":6,"value":"http://actop.login.bianfenghd.com/LoginServer/login/Server_gate.do","status":0,"name":"体験サーバー","info":"体験サーバー"},
+{"id":7,"value":"http://jlogin.gold.bianfenghd.com/LoginServer/login/Server_gate.do","status":1,"name":"正式服（测试）","info":"正式服（测试）"},
+{"id":8,"value":"http://actop.login.bianfenghd.com/LoginServer/login/Server_gate.do","status":1,"name":"测试サーバー","info":"测试サーバー"}
+]

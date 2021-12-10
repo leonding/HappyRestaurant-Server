@@ -1,9 +1,8 @@
 package org.tinygame.herostory.async;
 
-import com.sun.javafx.runtime.async.AsyncOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tinygame.herostory.MainThreadProcessor;
+import org.tinygame.herostory.netty.MainThreadProcessor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
