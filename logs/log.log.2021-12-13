@@ -1,0 +1,324 @@
+2021-12-13 14:50:44[MainThreadProcessor:252156866]-[INFO] userName = leon
+2021-12-13 14:50:44[AsyncOperationProcessor6:252156882]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 14:50:44[AsyncOperationProcessor6:252156921]-[ERROR] 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in org/tinygame/herostory/login/db/IUserDao.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT user_id, puid, `password`, hero_avatar, cash, money, gold FROM t_user WHERE puid = ?;
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in org/tinygame/herostory/login/db/IUserDao.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT user_id, puid, `password`, hero_avatar, cash, money, gold FROM t_user WHERE puid = ?;
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy6.getUserByName(Unknown Source)
+	at org.tinygame.herostory.login.LoginService$AsyncGetUserByName.doAsync(LoginService.java:89)
+	at org.tinygame.herostory.async.AsyncOperationProcessor.lambda$process$1(AsyncOperationProcessor.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 12 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 245,679,270 milliseconds ago. The last packet sent successfully to the server was 245,679,270 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:570)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:625)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 21 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:561)
+	... 25 more
+2021-12-13 14:50:44[MainThreadProcessor:252156925]-[ERROR] 用户登录失败, userName = leon
+2021-12-13 14:52:06[MainThreadProcessor:252239281]-[INFO] userName = leon
+2021-12-13 14:52:06[AsyncOperationProcessor6:252239282]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 14:52:07[MainThreadProcessor:252239435]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 14:52:07[MainThreadProcessor:252239435]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 15:43:19[MainThreadProcessor:255311732]-[INFO] userName = leon
+2021-12-13 15:43:19[AsyncOperationProcessor6:255311733]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 15:43:19[MainThreadProcessor:255311774]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 15:43:19[MainThreadProcessor:255311774]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 15:45:28[MainThreadProcessor:255441071]-[INFO] userName = leon
+2021-12-13 15:45:28[AsyncOperationProcessor6:255441072]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 15:45:28[MainThreadProcessor:255441084]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 15:45:28[MainThreadProcessor:255441084]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 15:45:28[nioEventLoopGroup-3-5:255441089]-[ERROR] LEAK: ByteBuf.release() was not called before it's garbage-collected. See https://netty.io/wiki/reference-counted-objects.html for more information.
+Recent access records: 
+Created at:
+	io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:349)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:173)
+	io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:107)
+	org.tinygame.herostory.netty.GameMsgEncoder.write(GameMsgEncoder.java:30)
+	io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:716)
+	io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:708)
+	io.netty.channel.AbstractChannelHandlerContext.access$1700(AbstractChannelHandlerContext.java:56)
+	io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1102)
+	io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1149)
+	io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1073)
+	io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:748)
+2021-12-13 16:00:52[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:00:52[main:3]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:00:52[main:590]-[INFO] ---------------
+2021-12-13 16:00:52[main:593]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:00:52[main:593]-[INFO] ---------------
+2021-12-13 16:00:52[main:593]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:00:58[main:6684]-[INFO] 服务器启动成功
+2021-12-13 16:02:14[MainThreadProcessor:82548]-[INFO] userName = leon
+2021-12-13 16:02:15[AsyncOperationProcessor6:83129]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:02:17[MainThreadProcessor:85191]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:02:17[MainThreadProcessor:85191]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:02:39[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:02:39[main:5]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:02:39[main:157]-[INFO] ---------------
+2021-12-13 16:02:39[main:159]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:02:39[main:159]-[INFO] ---------------
+2021-12-13 16:02:39[main:159]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:02:41[main:2602]-[INFO] 服务器启动成功
+2021-12-13 16:03:08[MainThreadProcessor:29538]-[INFO] userName = leon
+2021-12-13 16:03:08[AsyncOperationProcessor6:29555]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:03:08[MainThreadProcessor:29859]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:03:08[MainThreadProcessor:29859]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:03:54[MainThreadProcessor:75322]-[INFO] userName = leon
+2021-12-13 16:03:54[AsyncOperationProcessor6:75322]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:03:54[MainThreadProcessor:75324]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:03:54[MainThreadProcessor:75324]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:04:27[MainThreadProcessor:108223]-[INFO] userName = leon
+2021-12-13 16:04:27[AsyncOperationProcessor6:108224]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:04:27[MainThreadProcessor:108226]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:04:27[MainThreadProcessor:108226]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:05:47[MainThreadProcessor:188167]-[INFO] userName = leon
+2021-12-13 16:05:47[AsyncOperationProcessor6:188167]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:05:47[MainThreadProcessor:188169]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:05:47[MainThreadProcessor:188169]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:06:32[nioEventLoopGroup-3-2:233218]-[ERROR] 获取消息失败
+2021-12-13 16:09:11[MainThreadProcessor:392276]-[INFO] userName = leon
+2021-12-13 16:09:11[AsyncOperationProcessor6:392276]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:09:11[MainThreadProcessor:392278]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:09:11[MainThreadProcessor:392278]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:10:31[nioEventLoopGroup-3-6:472228]-[ERROR] 获取消息失败
+2021-12-13 16:19:22[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:19:22[main:5]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:19:22[main:123]-[INFO] ---------------
+2021-12-13 16:19:22[main:125]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:19:22[main:125]-[INFO] ---------------
+2021-12-13 16:19:22[main:125]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:19:24[main:1753]-[INFO] 服务器启动成功
+2021-12-13 16:22:03[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:22:21[main:17751]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:22:26[main:23149]-[INFO] ---------------
+2021-12-13 16:22:26[main:23153]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:22:26[main:23154]-[INFO] ---------------
+2021-12-13 16:22:26[main:23154]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:23:31[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:23:31[main:5]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:24:49[main:78235]-[INFO] ---------------
+2021-12-13 16:24:49[main:78237]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:24:49[main:78238]-[INFO] ---------------
+2021-12-13 16:24:49[main:78238]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:25:21[main:1]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:25:21[main:6]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:25:51[main:30500]-[INFO] ---------------
+2021-12-13 16:25:53[main:32313]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:27:14[main:113801]-[INFO] ---------------
+2021-12-13 16:27:14[main:113802]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:31:07[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:31:07[main:4]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:31:07[main:127]-[INFO] ---------------
+2021-12-13 16:31:07[main:129]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:31:07[main:129]-[INFO] ---------------
+2021-12-13 16:31:07[main:129]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:31:07[main:131]-[INFO] ---------------
+2021-12-13 16:31:07[main:131]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 16:31:07[main:132]-[INFO] ---------------
+2021-12-13 16:31:07[main:132]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 16:31:09[main:2190]-[INFO] 服务器启动成功
+2021-12-13 16:31:30[MainThreadProcessor:23278]-[INFO] userName = leon
+2021-12-13 16:31:30[AsyncOperationProcessor6:23283]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:31:31[MainThreadProcessor:23556]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:31:31[MainThreadProcessor:23556]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:34:24[MainThreadProcessor:196624]-[INFO] table number =
+2021-12-13 16:37:03[main:1]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:37:03[main:3]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:37:03[main:186]-[INFO] ---------------
+2021-12-13 16:37:03[main:189]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:37:03[main:189]-[INFO] ---------------
+2021-12-13 16:37:03[main:190]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:37:03[main:193]-[INFO] ---------------
+2021-12-13 16:37:03[main:193]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 16:37:03[main:193]-[INFO] ---------------
+2021-12-13 16:37:03[main:194]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 16:37:06[main:2937]-[INFO] 服务器启动成功
+2021-12-13 16:37:32[MainThreadProcessor:29540]-[INFO] table number =
+2021-12-13 16:38:52[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:38:52[main:5]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:39:05[main:13029]-[INFO] ---------------
+2021-12-13 16:39:05[main:13036]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:39:05[main:13036]-[INFO] ---------------
+2021-12-13 16:39:05[main:13036]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:39:05[main:13040]-[INFO] ---------------
+2021-12-13 16:39:05[main:13040]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 16:39:05[main:13041]-[INFO] ---------------
+2021-12-13 16:39:05[main:13041]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 16:39:08[main:15294]-[INFO] 服务器启动成功
+2021-12-13 16:39:25[MainThreadProcessor:32727]-[INFO] userName = leon
+2021-12-13 16:39:26[AsyncOperationProcessor6:33286]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:39:27[MainThreadProcessor:34844]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:39:27[MainThreadProcessor:34844]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:40:15[MainThreadProcessor:82730]-[INFO] userName = leon
+2021-12-13 16:40:16[AsyncOperationProcessor6:83209]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:40:17[MainThreadProcessor:84286]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:40:17[MainThreadProcessor:84286]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:42:15[MainThreadProcessor:202748]-[INFO] userName = leon
+2021-12-13 16:42:15[AsyncOperationProcessor6:203068]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:42:16[MainThreadProcessor:204004]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:42:16[MainThreadProcessor:204005]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 16:50:15[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 16:50:15[main:19]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 16:50:15[main:368]-[INFO] ---------------
+2021-12-13 16:50:15[main:375]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 16:50:15[main:375]-[INFO] ---------------
+2021-12-13 16:50:15[main:375]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 16:50:15[main:379]-[INFO] ---------------
+2021-12-13 16:50:15[main:379]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 16:50:15[main:380]-[INFO] ---------------
+2021-12-13 16:50:15[main:380]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 16:50:18[main:2476]-[INFO] 服务器启动成功
+2021-12-13 16:52:09[MainThreadProcessor:113576]-[INFO] userName = leon
+2021-12-13 16:52:46[AsyncOperationProcessor6:151031]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 16:52:51[MainThreadProcessor:155541]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 16:52:51[MainThreadProcessor:155541]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:18:47[MainThreadProcessor:1712310]-[INFO] userName = leon
+2021-12-13 17:19:32[AsyncOperationProcessor6:1757136]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:19:33[MainThreadProcessor:1758363]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:19:33[MainThreadProcessor:1758363]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:19:40[main:0]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 17:19:40[main:15]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 17:19:41[main:366]-[INFO] ---------------
+2021-12-13 17:19:41[main:369]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 17:19:41[main:370]-[INFO] ---------------
+2021-12-13 17:19:41[main:370]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 17:19:41[main:374]-[INFO] ---------------
+2021-12-13 17:19:41[main:374]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 17:19:41[main:375]-[INFO] ---------------
+2021-12-13 17:19:41[main:375]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 17:19:43[main:2809]-[INFO] 服务器启动成功
+2021-12-13 17:20:18[MainThreadProcessor:37132]-[INFO] userName = leon
+2021-12-13 17:20:23[AsyncOperationProcessor6:42925]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:20:30[MainThreadProcessor:49413]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:20:30[MainThreadProcessor:49413]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:20:50[MainThreadProcessor:69258]-[INFO] userName = leon
+2021-12-13 17:20:50[AsyncOperationProcessor6:69261]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:20:50[MainThreadProcessor:69263]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:20:50[MainThreadProcessor:69263]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:21:01[MainThreadProcessor:80444]-[INFO] userName = leon
+2021-12-13 17:21:01[AsyncOperationProcessor6:80445]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:21:01[MainThreadProcessor:80447]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:21:01[MainThreadProcessor:80447]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:22:02[MainThreadProcessor:141465]-[INFO] table number =
+2021-12-13 17:22:15[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 17:22:15[main:4]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 17:22:15[main:182]-[INFO] ---------------
+2021-12-13 17:22:15[main:184]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 17:22:15[main:185]-[INFO] ---------------
+2021-12-13 17:22:15[main:185]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 17:22:15[main:188]-[INFO] ---------------
+2021-12-13 17:22:15[main:188]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 17:22:15[main:188]-[INFO] ---------------
+2021-12-13 17:22:15[main:188]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 17:22:18[main:2266]-[INFO] 服务器启动成功
+2021-12-13 17:22:36[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 17:22:36[main:4]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 17:22:36[main:163]-[INFO] ---------------
+2021-12-13 17:22:36[main:165]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 17:22:36[main:165]-[INFO] ---------------
+2021-12-13 17:22:36[main:165]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 17:22:36[main:168]-[INFO] ---------------
+2021-12-13 17:22:36[main:168]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 17:22:36[main:168]-[INFO] ---------------
+2021-12-13 17:22:36[main:169]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 17:22:39[main:3019]-[INFO] 服务器启动成功
+2021-12-13 17:22:49[MainThreadProcessor:13009]-[INFO] userName = leon
+2021-12-13 17:22:49[AsyncOperationProcessor6:13013]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:22:49[MainThreadProcessor:13278]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:22:49[MainThreadProcessor:13278]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 17:23:08[MainThreadProcessor:31970]-[INFO] table number = 21
+2021-12-13 17:53:57[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 17:53:57[main:4]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 17:53:57[main:289]-[INFO] ---------------
+2021-12-13 17:53:57[main:293]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 17:53:57[main:293]-[INFO] ---------------
+2021-12-13 17:53:57[main:293]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 17:53:57[main:299]-[INFO] ---------------
+2021-12-13 17:53:57[main:300]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 17:53:57[main:301]-[INFO] ---------------
+2021-12-13 17:53:57[main:301]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 17:54:00[main:3271]-[INFO] 服务器启动成功
+2021-12-13 17:54:33[MainThreadProcessor:35538]-[INFO] userName = leon
+2021-12-13 17:54:33[AsyncOperationProcessor6:35572]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-13 17:54:33[MainThreadProcessor:35808]-[INFO] userName = leon1
+2021-12-13 17:54:33[AsyncOperationProcessor1:35809]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-12-13 17:54:33[MainThreadProcessor:35884]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:54:33[MainThreadProcessor:35886]-[INFO] 用户登陆成功; userId = 6, puid = leon1
+2021-12-13 17:54:33[MainThreadProcessor:35888]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 17:54:33[MainThreadProcessor:35889]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-13 18:04:05[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-13 18:04:05[main:4]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd====org.tinygame.herostory.cmdHandler.CleanTableCmdHandler
+2021-12-13 18:04:05[main:147]-[INFO] ---------------
+2021-12-13 18:04:05[main:149]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-13 18:04:05[main:149]-[INFO] ---------------
+2021-12-13 18:04:05[main:150]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-13 18:04:05[main:151]-[INFO] ---------------
+2021-12-13 18:04:05[main:152]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableCmd <=> 10003
+2021-12-13 18:04:05[main:152]-[INFO] ---------------
+2021-12-13 18:04:05[main:152]-[INFO] org.tinygame.herostory.msg.TableProto$CleanTableRet <=> 10004
+2021-12-13 18:04:07[main:1993]-[INFO] 服务器启动成功
+2021-12-13 18:04:28[MainThreadProcessor:22787]-[INFO] userName = leon1
+2021-12-13 18:04:28[AsyncOperationProcessor1:22790]-[INFO] 当前线程 = AsyncOperationProcessor1
+2021-12-13 18:04:28[MainThreadProcessor:23049]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-13 18:04:28[MainThreadProcessor:23050]-[INFO] 用户登陆成功; userId = 6, puid = leon1
+2021-12-13 18:04:40[MainThreadProcessor:34992]-[INFO] table number = 1<=>21

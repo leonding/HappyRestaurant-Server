@@ -44,7 +44,7 @@ public class PlayerLoginCmdHandler implements ICmdHandler<PlayerProto.PlayerLogi
                     PlayerProto.PlayerLoginRet.Builder
                             resultBuidler = PlayerProto.PlayerLoginRet.newBuilder();
                     resultBuidler.setResult(0);
-                    resultBuidler.setPlayerId(1);
+                    resultBuidler.setPlayerId(userEntity.userId);
 
                     PlayerProto.PlayerInfo.Builder playerInfoBuilder = PlayerProto.PlayerInfo.newBuilder();
                     playerInfoBuilder.setPlayerId(1);

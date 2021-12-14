@@ -1,0 +1,133 @@
+2021-12-09 09:41:38[main:1]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 09:41:38[main:223]-[INFO] ---------------
+2021-12-09 09:41:38[main:225]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 09:41:38[main:225]-[INFO] ---------------
+2021-12-09 09:41:38[main:225]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 09:57:34[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 09:57:34[main:181]-[INFO] ---------------
+2021-12-09 09:57:34[main:183]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 09:57:34[main:183]-[INFO] ---------------
+2021-12-09 09:57:34[main:184]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 10:32:58[main:1]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 10:32:59[main:125]-[INFO] ---------------
+2021-12-09 10:32:59[main:128]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 10:32:59[main:128]-[INFO] ---------------
+2021-12-09 10:32:59[main:128]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 13:53:33[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 13:53:33[main:223]-[INFO] ---------------
+2021-12-09 13:53:33[main:225]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 13:53:33[main:225]-[INFO] ---------------
+2021-12-09 13:53:33[main:226]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 15:55:15[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 15:55:16[main:280]-[INFO] ---------------
+2021-12-09 15:55:16[main:283]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 15:55:16[main:283]-[INFO] ---------------
+2021-12-09 15:55:16[main:283]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 15:55:58[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 15:55:58[main:173]-[INFO] ---------------
+2021-12-09 15:55:58[main:175]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 15:55:58[main:175]-[INFO] ---------------
+2021-12-09 15:55:58[main:175]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 15:56:19[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 15:56:19[main:108]-[INFO] ---------------
+2021-12-09 15:56:19[main:111]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 15:56:19[main:111]-[INFO] ---------------
+2021-12-09 15:56:19[main:111]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 16:25:01[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 16:25:01[main:110]-[INFO] ---------------
+2021-12-09 16:25:01[main:112]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 16:25:01[main:112]-[INFO] ---------------
+2021-12-09 16:25:01[main:113]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 16:33:00[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 16:33:00[main:133]-[INFO] ---------------
+2021-12-09 16:33:00[main:140]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 16:33:00[main:140]-[INFO] ---------------
+2021-12-09 16:33:00[main:141]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 16:33:29[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 16:33:29[main:113]-[INFO] ---------------
+2021-12-09 16:33:29[main:114]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 16:33:29[main:115]-[INFO] ---------------
+2021-12-09 16:33:29[main:115]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:15:23[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:15:23[main:225]-[INFO] ---------------
+2021-12-09 18:15:23[main:227]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:15:23[main:227]-[INFO] ---------------
+2021-12-09 18:15:23[main:227]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:15:41[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:15:42[main:116]-[INFO] ---------------
+2021-12-09 18:15:42[main:118]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:15:42[main:118]-[INFO] ---------------
+2021-12-09 18:15:42[main:118]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:17:06[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:17:06[main:113]-[INFO] ---------------
+2021-12-09 18:17:06[main:116]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:17:06[main:116]-[INFO] ---------------
+2021-12-09 18:17:06[main:116]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:17:27[main:20688]-[INFO] =======
+2021-12-09 18:40:01[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:40:01[main:143]-[INFO] ---------------
+2021-12-09 18:40:01[main:145]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:40:01[main:145]-[INFO] ---------------
+2021-12-09 18:40:01[main:145]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:40:41[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:40:41[main:107]-[INFO] ---------------
+2021-12-09 18:40:41[main:109]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:40:41[main:109]-[INFO] ---------------
+2021-12-09 18:40:41[main:110]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:41:08[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:41:08[main:107]-[INFO] ---------------
+2021-12-09 18:41:08[main:109]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:41:08[main:109]-[INFO] ---------------
+2021-12-09 18:41:08[main:109]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:41:24[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:41:24[main:150]-[INFO] ---------------
+2021-12-09 18:41:24[main:153]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:41:24[main:153]-[INFO] ---------------
+2021-12-09 18:41:24[main:153]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:41:36[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:41:36[main:162]-[INFO] ---------------
+2021-12-09 18:41:36[main:164]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:41:36[main:164]-[INFO] ---------------
+2021-12-09 18:41:36[main:165]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:41:56[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:41:57[main:121]-[INFO] ---------------
+2021-12-09 18:41:57[main:123]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:41:57[main:123]-[INFO] ---------------
+2021-12-09 18:41:57[main:124]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:43:10[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:43:10[main:109]-[INFO] ---------------
+2021-12-09 18:43:10[main:111]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:43:10[main:111]-[INFO] ---------------
+2021-12-09 18:43:10[main:112]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:43:15[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:43:15[main:119]-[INFO] ---------------
+2021-12-09 18:43:15[main:121]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:43:15[main:122]-[INFO] ---------------
+2021-12-09 18:43:15[main:122]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:44:30[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:44:30[main:109]-[INFO] ---------------
+2021-12-09 18:44:30[main:111]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:44:30[main:112]-[INFO] ---------------
+2021-12-09 18:44:30[main:112]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:45:13[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:45:13[main:144]-[INFO] ---------------
+2021-12-09 18:45:13[main:146]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:45:13[main:147]-[INFO] ---------------
+2021-12-09 18:45:13[main:147]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:45:53[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:45:53[main:146]-[INFO] ---------------
+2021-12-09 18:45:53[main:152]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:45:53[main:152]-[INFO] ---------------
+2021-12-09 18:45:53[main:153]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:46:40[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:46:40[main:127]-[INFO] ---------------
+2021-12-09 18:46:40[main:129]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:46:40[main:130]-[INFO] ---------------
+2021-12-09 18:46:40[main:131]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:47:36[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-09 18:47:36[main:131]-[INFO] ---------------
+2021-12-09 18:47:36[main:133]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-09 18:47:36[main:133]-[INFO] ---------------
+2021-12-09 18:47:36[main:133]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-09 18:47:52[main:16292]-[INFO] =======
+2021-12-09 18:47:53[main:17658]-[INFO] 服务器启动成功

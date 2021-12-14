@@ -1,0 +1,50 @@
+2021-12-10 16:48:07[main:0]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd====org.tinygame.herostory.cmdHandler.PlayerLoginCmdHandler
+2021-12-10 16:48:08[main:678]-[INFO] ---------------
+2021-12-10 16:48:08[main:680]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginCmd <=> 10001
+2021-12-10 16:48:08[main:680]-[INFO] ---------------
+2021-12-10 16:48:08[main:680]-[INFO] org.tinygame.herostory.msg.PlayerProto$PlayerLoginRet <=> 10002
+2021-12-10 16:48:10[main:2886]-[INFO] 服务器启动成功
+2021-12-10 16:55:49[MainThreadProcessor:462120]-[INFO] userName = leon
+2021-12-10 16:55:49[AsyncOperationProcessor6:462156]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 16:55:50[MainThreadProcessor:462509]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 16:55:50[MainThreadProcessor:462510]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 17:25:02[MainThreadProcessor:2214650]-[INFO] userName = leon
+2021-12-10 17:25:02[AsyncOperationProcessor6:2214651]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 17:25:02[MainThreadProcessor:2214652]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 17:25:02[MainThreadProcessor:2214653]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:00:33[MainThreadProcessor:4345765]-[INFO] userName = leon
+2021-12-10 18:00:33[AsyncOperationProcessor6:4345766]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:00:33[MainThreadProcessor:4345771]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:00:33[MainThreadProcessor:4345772]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:03:32[MainThreadProcessor:4524811]-[INFO] userName = leon
+2021-12-10 18:03:32[AsyncOperationProcessor6:4524811]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:03:32[MainThreadProcessor:4524814]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:03:32[MainThreadProcessor:4524814]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:04:23[MainThreadProcessor:4576013]-[INFO] userName = leon
+2021-12-10 18:04:23[AsyncOperationProcessor6:4576013]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:04:23[MainThreadProcessor:4576015]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:04:23[MainThreadProcessor:4576015]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:05:06[MainThreadProcessor:4618568]-[INFO] userName = leon
+2021-12-10 18:05:06[AsyncOperationProcessor6:4618569]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:05:06[MainThreadProcessor:4618570]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:05:06[MainThreadProcessor:4618571]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:05:24[MainThreadProcessor:4637289]-[INFO] userName = leon
+2021-12-10 18:05:24[AsyncOperationProcessor6:4637289]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:05:24[MainThreadProcessor:4637291]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:05:24[MainThreadProcessor:4637291]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:28:04[MainThreadProcessor:5996879]-[INFO] userName = leon
+2021-12-10 18:28:04[AsyncOperationProcessor6:5996880]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:28:04[MainThreadProcessor:5996882]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:28:04[MainThreadProcessor:5996882]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:29:39[MainThreadProcessor:6091476]-[INFO] userName = leon
+2021-12-10 18:29:39[AsyncOperationProcessor6:6091477]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:29:39[MainThreadProcessor:6091478]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:29:39[MainThreadProcessor:6091479]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:31:10[MainThreadProcessor:6183114]-[INFO] userName = leon
+2021-12-10 18:31:10[AsyncOperationProcessor6:6183115]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:31:10[MainThreadProcessor:6183119]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:31:10[MainThreadProcessor:6183119]-[INFO] 用户登陆成功; userId = 5, puid = leon
+2021-12-10 18:36:05[MainThreadProcessor:6477624]-[INFO] userName = leon
+2021-12-10 18:36:05[AsyncOperationProcessor6:6477624]-[INFO] 当前线程 = AsyncOperationProcessor6
+2021-12-10 18:36:05[MainThreadProcessor:6477626]-[INFO] 当前线程 = MainThreadProcessor
+2021-12-10 18:36:05[MainThreadProcessor:6477626]-[INFO] 用户登陆成功; userId = 5, puid = leon
